@@ -21,7 +21,7 @@ function fetchProducts() {
           <li>${product.name}: ${product.price}</li>
         `).join('')
 
-    });}
+    });} 
     ReactDom.reader(
       React.createElement(
         "h1",
