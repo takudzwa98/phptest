@@ -1,12 +1,3 @@
-ReactDom.reader(
-  React.createElement(
-    "h1",
-    {"style":{"color": "red"}},
-    "Hello World"
-
-  ),
-  document.getElementById("root")
-);
 // Event listener to watch for clicks on link in HTML
 //   .querySelector('#productsContainer>li>a')
 //   .addEventListener('click', fetchProducts);
@@ -30,6 +21,14 @@ function fetchProducts() {
           <li>${product.name}: ${product.price}</li>
         `).join('')
 
-    });
-}
-
+    });}
+    ReactDom.reader(
+      React.createElement(
+        "h1",
+        {"style":{"color": "red"}},
+        "Hello World"
+    
+      ),
+      document.getElementById("root")
+    );
+  
